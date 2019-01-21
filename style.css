@@ -1,8 +1,11 @@
-body {}
+body {
+    background-image: url(img/back.jpg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 #welcome-section {
     margin-top: 80px;
-
 }
 
 .about-me {}
@@ -12,10 +15,12 @@ h6 {
     margin-left: 150px;
     font-size: 400%;
 
+
 }
 
 h1 {
     margin-top: 300px;
+
 }
 
 h2 {
@@ -23,11 +28,11 @@ h2 {
 
 }
 
-.container-fluid {
-    background-image: url(img/back.jpg.jpg);
-
+h6 {
+    margin-bottom: 300px;
 }
 
 .design {
-    text-align: center
+    padding-top: 600px;
+    padding-left: 470px;
 }
