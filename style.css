@@ -1,21 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+
 body {
     background-image: url(img/back.jpg.jpg);
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Righteous', cursive;
+    color: darkcyan;
 }
+
+/****************top-of-the-codes****************/
 
 #welcome-section {
     margin-top: 80px;
 }
 
-.about-me {}
+/****************all-text-elements ****************/
 
 h1,
 h6 {
-    margin-left: 150px;
+    text-align: center;
     font-size: 400%;
-
-
 }
 
 h1 {
@@ -32,11 +37,41 @@ h6 {
     margin-bottom: 300px;
 }
 
-.design {
-    padding-top: 600px;
-    padding-left: 470px;
+/****************extra designing****************/
+.design,
+.contact-me {
+    text-align: center;
 }
 
-.contact-me {
-    padding-left: 550px;
+.about {}
+
+.card {
+    size: 700px;
+}
+
+#profile-link {
+    margin-bottom: 100px
+}
+
+/****************media query****************/
+
+@media only screen and (max-width:400px) {
+    .design {
+        padding-top: 2px;
+        padding-left: 1px;
+    }
+
+    .contact-me {
+        padding-left: 1px;
+    }
+
+    h1,
+    h6 {
+        margin-left: 150px;
+        font-size: 10%;
+
+
+    }
+
+
 }
